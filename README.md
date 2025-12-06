@@ -16,7 +16,6 @@ Para instalar este paquete localmente, desde la carpeta del proyecto:
 
 ```bash
 pip install .
-
 from mini_turtle import adelante, abajo, reiniciar
 
 print("Dibujo de prueba:\n")
@@ -27,6 +26,8 @@ abajo(2)      # |
 
 reiniciar()
 
+print("\nDespués de reiniciar:\n")
+adelante(4)   # ----
 mini_turtle_task/
 ├── mini_turtle/
 │   ├── __init__.py
@@ -34,8 +35,3 @@ mini_turtle_task/
 ├── main.py
 ├── README.md
 └── pyproject.toml
-
-
-print("\nDespués de reiniciar:\n")
-adelante(4)   # ----
-
