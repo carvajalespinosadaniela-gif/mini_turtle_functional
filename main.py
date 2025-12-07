@@ -1,12 +1,13 @@
 from mini_turtle import adelante, abajo, reiniciar
 
-print("Dibujo de prueba:\n")
+print("Dibujo de escalera:\n")
 
 adelante(3)   # ---
 abajo(2)      # |
-              # |
-
+adelante(3)           # |
+abajo(2)
+print("\nreinicio\n")
 reiniciar()
 
-print("\nDespués de reiniciar:\n")
+print("\nnuevo dibujo:\n")
 adelante(4)   # ----
